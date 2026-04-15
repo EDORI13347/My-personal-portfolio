@@ -1,0 +1,380 @@
+*{
+    margin:0 ;
+    padding:0;
+    box-sizing:border-box ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    font-size:1.2rem;
+}
+
+.navigation-bar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border:2px solid black;
+    padding:1rem 2rem;
+    margin:1rem;
+    border-radius:6px;
+    background-color:plum;
+
+}
+
+.nav-items{
+    display:flex;
+    align-items:center;
+    column-gap:40px;
+    row-gap:40px;
+    
+    
+
+}
+
+.nav-item{
+    list-style:none;
+
+}
+
+.nav-item a{
+    text-decoration:none;
+    
+    border-radius:5px;
+    height:50px;
+    width:50px;
+
+}
+
+.middle{
+    text-align:center;
+    display:flex;
+    height:80vh;
+    padding:1rem 2rem;
+    margin:1rem;
+    border:2px solid black;
+    border-radius:10px;
+    
+    flex-direction:column;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:center;
+    background-color:plum;
+}
+
+.my-work{
+    display:flex;
+    border-radius:10px ;
+    flex-direction:row;
+    height:20px;
+    width:20px;
+    
+}
+
+.container{
+    display:flex;
+    width:90%;
+    max-width:900px;
+    height:600px;
+    margin:50px auto;
+    padding:40px;
+    flex-direction:column;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:center;
+    text-align:center;
+    border:5px solid plum;
+    border-radius:80px;
+    padding:60px 40px;
+
+}
+
+.list-group{
+    display:flex;
+    
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    list-style:none;
+    padding:0;
+
+    
+}
+
+.group-item{
+    display:flex;
+    background-color:plum;
+    color:black;
+    padding:10px 25px;
+    border-radius:50px;
+    font-weight:bold;
+    font-size:0.9rem;
+    text-transform:uppercase;
+}
+
+.container h2:first-of-type{
+    margin-bottom:10px;
+}
+
+.container p {
+    margin-bottom:40px;
+    border-bottom:1px solid rgba(221,160,221);
+    padding-bottom:20px;
+    line-height:1.6;
+}
+
+.container h3{
+    padding:30px;
+}
+
+.my-work{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    background-color:plum;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    border:white;
+    transition: background 0.3s;
+    padding: 30px;
+    border-radius:50px;
+    text-transform:uppercase;
+    list-style:none;
+    flex-direction:row;
+
+
+
+}
+
+.profile-nav-bar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border:2px solid plum;
+    padding:1rem 2rem;
+    margin:1rem;
+    border-radius:6px;
+    background-color:black;
+   
+
+}
+
+.nav-groups{
+    
+    display:flex;
+    flex-direction:row;
+    display:flex;
+    align-items:center;
+    column-gap:40px;
+    row-gap:40px;
+    list-style:none;
+    color:white;
+    text-decoration:none;
+    
+}
+
+.body{
+    margin:0;
+    background:linear gradient(plum);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+    min-height:100vh;
+}
+
+.contact-container{
+    display:flex;
+    background-color:rgb(242, 209, 242);
+    border-radius:16px ;
+    border:solid white;
+    box-shadow:0 10px 20px rgba(0, 0, 0,0.1);
+    max-width:900px;
+    width:150%;
+    padding:32px;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+
+
+}
+
+.contact-container h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:black;
+    font-size:32px;
+    
+ 
+
+}
+
+
+
+
+.form-group{
+    margin-bottom:22px;
+    border-radius:10px;
+    
+}
+
+.input.textarea{
+    width:100%;
+    padding:12px 16px;
+    border:1px solid #999 ;
+    border-radius:8px ;
+    font-size:16px;
+    background-color:#f0f0f0;
+
+}
+
+input:focus, textarea:focus{
+    border:black;
+    box-shadow:0 0 5px rgba(0,172,193,0.5);
+    outline:none;
+
+}
+
+textarea{
+    resize:vertical;
+    min-height:120px;
+}
+
+button{
+    display:block;
+    margin:auto;
+    background-color:black;
+    color:white;
+    border:none;
+    padding:12px 16px;
+    font-size:16px;
+    border-radius: 8px;
+    cursor:pointer;
+    transition:0.3s ease;
+
+}
+
+button:hover{
+    background-color:rgb(241, 234, 241);
+}
+
+.contact-nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border:2px solid plum;
+    padding:1rem 2rem;
+    margin:1rem;
+    border-radius:6px;
+    background-color:black;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+
+    
+}
+
+.contact-groups{
+    display:flex;
+    flex-direction:row;
+    display:flex;
+    align-items:center;
+    column-gap:40px;
+    row-gap:40px;
+    list-style:none;
+    color:white;
+    text-decoration:none;
+
+}
+
+.middle img{
+    width:200px;
+    height:200px
+    
+}
+
+.media-box img{
+    height:500px;
+    width:200px;
+    display:block;
+    object-fit:cover;
+    width:100%
+}
+
+.projects-container{
+    display:flex;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    max-width:1500px;
+    margin:0 auto;
+}
+
+.project-card{
+    background:black;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    padding-bottom:15px;
+    text-align:center;
+    width:1000px;
+    height:400px;
+}
+
+.proj{
+    background-color:rgb(236, 176, 236);
+    margin:0;
+    padding:0;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    width:100%;
+}
+
+.nav-group{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.projects-nav-bar{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    border:2px solid black;
+    padding:1rem 2rem;
+    margin:10px;
+    border-radius:6px;
+    background-color:black;
+    flex-direction:row;
+    list-style:none;
+
+}
+
+.proj-items{
+     display:flex;
+    align-items:center;
+    column-gap:40px;
+    row-gap:40px;
+    object-fit:cover;
+    border-radius:8px;
+    flex-direction:row;
+    color:white !important;
+
+}
+.proj-item{
+    text-decoration:none;
+    display:inline-block;
+    padding:0 15px;
+    color:white;
+    font-weight:bold;
+
+
+}
+
+.Hi{
+    padding:30px;
+    color: black !important;
+}
+    
