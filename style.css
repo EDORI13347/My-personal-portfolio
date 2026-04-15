@@ -301,14 +301,16 @@ button:hover{
     display:block;
     object-fit:cover;
     width:100%
+    
 }
 
 .projects-container{
     display:flex;
     grid-template-columns:repeat(2,1fr);
     gap:20px;
-    max-width:1500px;
+    max-width:1800px;
     margin:0 auto;
+    
 }
 
 .project-card{
@@ -320,6 +322,7 @@ button:hover{
     text-align:center;
     width:1000px;
     height:400px;
+    flex-wrap:wrap;
 }
 
 .proj{
